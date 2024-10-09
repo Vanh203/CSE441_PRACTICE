@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edt_chuan_doan" type="id">edt_chuan_doan</item>
+    <item name="tableLayout" type="id">tableLayout</item>
+    <item name="textView" type="id">textView</item>
+</resources>
