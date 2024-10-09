@@ -3,4 +3,9 @@
     <item name="edt_chuan_doan" type="id">edt_chuan_doan</item>
     <item name="tableLayout" type="id">tableLayout</item>
     <item name="textView" type="id">textView</item>
+    <item name="btn_BMI" type="id" />
+    <item name="edt_name" type="id" />
+    <item name="edt_can_nang" type="id" />
+    <item name="edt_chieu_cao" type="id" />
+    <item name="edt_BMI" type="id" />
 </resources>
