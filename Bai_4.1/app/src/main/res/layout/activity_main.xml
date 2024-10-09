@@ -79,6 +79,11 @@
                 tools:ignore="ButtonStyle,HardcodedText" />
         </LinearLayout>
 
-
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="clear"
+            tools:ignore="HardcodedText,VisualLintButtonSize" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
