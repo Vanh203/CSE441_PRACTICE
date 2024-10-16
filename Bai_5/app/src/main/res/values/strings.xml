@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Day_Change</string>
+    <string name="chuy_n_i_n_m_d_ng_l_ch">Chuyển đổi năm dương lịch</string>
+    <string name="n_m_d_ng_l_ch">Năm dương lịch:</string>
+    <string name="n_m_m_l_ch">Năm âm lịch:</string>
+    <string name="chuy_n_i">Chuyển đổi</string>
+    <string name="nh_p_n_m_d_ng_l_ch">Nhập năm dương lịch</string>
 </resources>
