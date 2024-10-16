@@ -1,19 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:padding="16dp"
+    android:stretchColumns="*">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chuy_n_i_n_m_d_ng_l_ch"
+            android:textSize="18sp"
+            android:layout_span="2"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+    </TableRow>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/n_m_d_ng_l_ch"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editnamduonglich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/nh_p_n_m_d_ng_l_ch"
+            android:inputType="number"
+            android:textColorHint="#546E7A"
+            tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chuy_n_i"
+            android:layout_span="2"
+            android:layout_marginTop="16dp"
+            tools:ignore="VisualLintButtonSize" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/n_m_m_l_ch"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp" />
+    </TableRow>
+</TableLayout>
