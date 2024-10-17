@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TTCN</string>
+    <string name="guiThongTin">Gửi thông tin</string>
+    <string name="thongTinBoSung">Thông tin bổ sung:</string>
+    <string name="docCoding">Đọc coding</string>
+    <string name="docSach">Đọc sách</string>
+    <string name="docBao">Đọc báo</string>
+    <string name="soThich">Sở thích:</string>
+    <string name="daiHoc">Đại học</string>
+    <string name="caoDang">Cao đẳng</string>
 </resources>
