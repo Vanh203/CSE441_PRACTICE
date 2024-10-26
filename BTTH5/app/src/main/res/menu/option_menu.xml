@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:menuCategory="alternative">
+
+        <item
+            android:id="@+id/mon_chinh"
+            android:title="Món chính"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/mon_khai_vi"
+            android:title="@string/mon_khai_vi"/>
+
+        <item
+            android:id="@+id/mon_trang_mieng"
+            android:title="@string/mon_trang_mieng"/>
+    </group>
+
+</menu>
